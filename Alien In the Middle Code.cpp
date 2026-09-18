@@ -2,7 +2,6 @@
 
 using namespace std;
 
-
 bool apakahHuruf(char c)
 {
     return (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z');
@@ -66,10 +65,10 @@ void enkripsiSandiAstronot(char teks[], char hasil[])
                     hasil[i] = teks[i];
                 }
     }
-
+    
     hasil[panjang] = '\0';
+    
 }
-
 int main()
 {
     char inputTeks[100];
